@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header img {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +135,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box-1 {
+    background-color: teal;
 }
 
 .bottom-content {

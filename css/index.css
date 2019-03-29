@@ -130,7 +130,7 @@ header nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -138,8 +138,43 @@ header nav a {
     justify-content: center;
 }
 
-.middle-content .boxes .box-1 {
+ .box-1 {
     background-color: teal;
+}
+.middle-content .boxes .box-2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -156,7 +191,7 @@ header nav a {
     padding-right: 0;
 }
 
-.about-content {;
+.about-content {
     border-bottom: 1px dashed;
 }
 

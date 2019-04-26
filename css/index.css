@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+}
+
+header img {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: slategray;
+}
+
+.header-img {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
